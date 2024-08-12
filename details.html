@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Details</title>
+    <link rel="stylesheet" href="firstpage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Details</h1>
+        <!-- Assuming you want to submit the data to a server-side script or another page -->
+        <form action="upload.php" method="post"> <!-- Changed to POST method and action URL to a PHP file -->
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" required>
+
+            <label for="season">Season:</label>
+            <input type="text" id="season" name="season" required>
+
+            <button type="submit">Continue</button>
+        </form>
+    </div>
+</body>
+</html>
